@@ -38,6 +38,8 @@ namespace ApplicationTest
             Console.ReadKey();
 
             test.Category = BookCategory.Poem;
+            Console.WriteLine(test.Category );
+            Console.ReadKey();
         }
     }
 
