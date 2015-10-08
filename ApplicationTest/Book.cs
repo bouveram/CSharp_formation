@@ -9,12 +9,14 @@ namespace ApplicationTest
     public class Book
     {
         private string title;
-        private int id;
+        private Author[] authors = new Author[10];
+        private int nbAuthor = 0;
+        /*private int id;
         private int nbPage;
         private string isbn;
         private double price;
         private string lang;
-        private Publisher editor;
+        private Publisher editor;*/
 
         public string Title
         {
@@ -33,5 +35,27 @@ namespace ApplicationTest
         public string Lang { get; set; }
 
         public Publisher Editor { get; set; }
+
+        public void AddAuthor(Author author)
+        {
+            this.authors[nbAuthor] = author;
+            nbAuthor++;
+        }
+
+        public void displayAuthor()
+        {
+            if (nbAuthor != 0)
+            {
+                Console.WriteLine("Contributor :");
+                for (int i = 0; i < nbAuthor; i++)
+                {
+                    Console.WriteLine(authors[i].FirstName + " " + authors[i].LastName);
+                }
+            }
+            else
+            {
+                Console.WriteLine("No author for now !");
+            }
+        }
     }
 }

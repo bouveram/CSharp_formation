@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace ApplicationTest
 {
-    public class Publisher
+    public class Author
     {
-
-        public string Name { get; set; }
-        public string SiretNb { get; set; }
-        public double Ca { get; set; }
-
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
     }
 }
