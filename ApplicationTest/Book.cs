@@ -38,7 +38,7 @@ namespace ApplicationTest
 
         public void AddAuthor(Author author)
         {
-            this.authors[nbAuthor] = author;
+            this.Authors[nbAuthor] = author;
             nbAuthor++;
         }
 
@@ -49,7 +49,7 @@ namespace ApplicationTest
                 Console.WriteLine("Contributor :");
                 for (int i = 0; i < nbAuthor; i++)
                 {
-                    Console.WriteLine(authors[i].FirstName + " " + authors[i].LastName);
+                    Console.WriteLine(Authors[i].FirstName + " " + Authors[i].LastName);
                 }
             }
             else

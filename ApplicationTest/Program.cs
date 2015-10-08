@@ -24,13 +24,17 @@ namespace ApplicationTest
             test.displayAuthor();
             test.AddAuthor(guillaume);
             test.AddAuthor(arthur);
-
+            
             livre2.AddAuthor(maurice);
 
             Console.WriteLine(test.Title);
             Console.WriteLine("Il possede a : " + test.NbPage + " pages");
             Console.WriteLine("Editor name : " + test.Editor.Name);
             test.displayAuthor();
+            Console.ReadKey();
+
+            Console.WriteLine( Counter.increment() );
+            Console.WriteLine( Counter.increment() );
             Console.ReadKey();
         }
     }
