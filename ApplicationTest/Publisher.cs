@@ -13,5 +13,13 @@ namespace ApplicationTest
         public string SiretNb { get; set; }
         public double Ca { get; set; }
 
+        /*
+	     * Affiche des infos spécifiques lors du debugage
+	     */
+        new public String ToString()
+        {
+            return "Editor " + Name;
+        }
+
     }
 }
