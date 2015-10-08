@@ -3,14 +3,14 @@
   <Class Name="ApplicationTest.Book">
     <Position X="5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AABCAAAAQQAAAEAAQAAAAAAAAQAAAAAAZBAAAAAEAAA=</HashCode>
+      <HashCode>AABCAAAAQQAAAEAAQAAAAAAAAQBAAAAAJBAAAAAEAAA=</HashCode>
       <FileName>Book.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Editor" />
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
-      <Field Name="authors" />
+      <Property Name="Authors" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="ApplicationTest.Publisher">

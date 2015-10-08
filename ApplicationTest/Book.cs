@@ -9,7 +9,7 @@ namespace ApplicationTest
     public class Book
     {
         private string title;
-        private Author[] authors = new Author[10];
+        public Author[] Authors { get; private set; } = new Author[10]; //Permet de creer les getter & setter. Set is private donc inaccessible
         private int nbAuthor = 0;
         /*private int id;
         private int nbPage;
