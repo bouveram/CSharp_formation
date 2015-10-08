@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ApplicationTest
 {
-    class Publisher
+    public class Publisher
     {
         private string name;
         private string siretNb;
