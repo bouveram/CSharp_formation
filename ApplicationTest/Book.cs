@@ -14,6 +14,7 @@ namespace ApplicationTest
         private string isbn;
         private double price;
         private string lang;
+        private Publisher editor;
 
         public string Title
         {
@@ -30,5 +31,7 @@ namespace ApplicationTest
         public double Price { get; set; }
 
         public string Lang { get; set; }
+
+        public Publisher Editor { get; set; }
     }
 }

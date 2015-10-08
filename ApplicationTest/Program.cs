@@ -11,12 +11,13 @@ namespace ApplicationTest
         static void Main(string[] args)
         {
             Book test = new Book();
+            Publisher editeur = new Publisher();
 
             test.Title = "ceci est le titre de mon livre";
             test.NbPage = 957;
 
             Console.WriteLine(test.Title);
-            Console.WriteLine("Il possede a : "+test.NbPage+" pages");
+            Console.WriteLine("Il possede a : " + test.NbPage + " pages");
             Console.ReadKey();
         }
     }
