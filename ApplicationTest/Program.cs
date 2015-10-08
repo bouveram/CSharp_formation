@@ -1,4 +1,6 @@
-﻿using System;
+﻿using com.m2i.formation.media;
+using com.m2i.formation.geometry;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

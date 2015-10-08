@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="ApplicationTest.Book">
+  <Class Name="com.m2i.formation.media.Book">
     <Position X="5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AABCAAAAQQAAAEAAQAAAAAAAAQBAAAAAJBAAAAAEAAA=</HashCode>
-      <FileName>Book.cs</FileName>
+      <HashCode>AABCAAAAQQAAAEAAQAAAAAAAAQBAAAAAJBAAAAAECAA=</HashCode>
+      <FileName>com.m2i.formation.media\Book.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Editor" />
@@ -13,18 +13,18 @@
       <Property Name="Authors" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="ApplicationTest.Publisher">
+  <Class Name="com.m2i.formation.media.Publisher">
     <Position X="8" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAQAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Publisher.cs</FileName>
+      <HashCode>AAAAAAAAAAQAAAAEAAIAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>com.m2i.formation.media\Publisher.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ApplicationTest.Author">
+  <Class Name="com.m2i.formation.media.Author">
     <Position X="8" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
-      <FileName>Author.cs</FileName>
+      <FileName>com.m2i.formation.media\Author.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

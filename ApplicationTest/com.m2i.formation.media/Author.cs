@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApplicationTest
+namespace com.m2i.formation.media
 {
     public class Author
     {
