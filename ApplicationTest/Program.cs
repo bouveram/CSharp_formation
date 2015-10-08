@@ -36,6 +36,8 @@ namespace ApplicationTest
             Console.WriteLine( Counter.increment() );
             Console.WriteLine( Counter.increment() );
             Console.ReadKey();
+
+            test.Category = BookCategory.Poem;
         }
     }
 

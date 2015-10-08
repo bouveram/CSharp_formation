@@ -36,6 +36,8 @@ namespace ApplicationTest
 
         public Publisher Editor { get; set; }
 
+        public BookCategory Category { get; set; }
+
         public void AddAuthor(Author author)
         {
             this.Authors[nbAuthor] = author;
