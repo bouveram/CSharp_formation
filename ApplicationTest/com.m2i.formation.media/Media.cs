@@ -31,7 +31,7 @@ namespace com.m2i.formation.media
             nbAuthor++;
         }
 
-        public void displayAuthor()
+        public void DisplayAuthor()
         {
             if (nbAuthor != 0)
             {
@@ -47,5 +47,9 @@ namespace com.m2i.formation.media
             }
         }
         
+        public virtual double GetVATPrice()
+        {
+            return Price * 1.2;
+        }
     }
 }

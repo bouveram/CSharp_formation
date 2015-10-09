@@ -14,6 +14,10 @@ namespace com.m2i.formation.media
         public string Isbn { get; set; }
 
         public int NbPage { get; set; }
-        
+
+        public override double GetVATPrice()
+        {
+            return Price * 1.05;
+        }
     }
 }

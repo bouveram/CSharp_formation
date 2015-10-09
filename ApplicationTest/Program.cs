@@ -24,7 +24,7 @@ namespace ApplicationTest
             test.Title = "ceci est le titre de mon livre";
             test.NbPage = 957;
             test.Editor = editeur;
-            test.displayAuthor();
+            test.DisplayAuthor();
             test.AddAuthor(guillaume);
             test.AddAuthor(arthur);
             
@@ -33,7 +33,7 @@ namespace ApplicationTest
             Console.WriteLine(test.Title);
             Console.WriteLine("Il possede a : " + test.NbPage + " pages");
             Console.WriteLine("Editor name : " + test.Editor.Name);
-            test.displayAuthor();
+            test.DisplayAuthor();
             Console.ReadKey();
 
             Console.WriteLine( Counter.increment() );
@@ -47,6 +47,12 @@ namespace ApplicationTest
             Point3D p3d = new Point3D();
             p3d.X = 5;
             p3d.Z = 9;
+
+            Media b2 = new Book();
+            b2.Price = 10.0;
+            Console.WriteLine(((Book)b2).NbPage);
+            Console.WriteLine(b2.GetVATPrice());
+            Console.ReadKey();
         }
     }
 
