@@ -51,7 +51,7 @@ namespace ApplicationTest
             Media b2 = new Book();
             b2.Price = 10.0;
             Console.WriteLine(((Book)b2).NbPage);
-            Console.WriteLine(b2.GetVATPrice());
+            Console.WriteLine(b2.VATPrice);
             Console.ReadKey();
         }
     }
