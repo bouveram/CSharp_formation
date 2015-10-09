@@ -47,9 +47,13 @@ namespace com.m2i.formation.media
             }
         }
         
-        public virtual double GetVATPrice()
+        public virtual double VATPrice
         {
-            return Price * 1.2;
+            get {
+                return Price * 1.2;
+            }
+            
         }
+        
     }
 }

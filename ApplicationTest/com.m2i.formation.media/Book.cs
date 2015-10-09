@@ -15,9 +15,10 @@ namespace com.m2i.formation.media
 
         public int NbPage { get; set; }
 
-        public override double GetVATPrice()
+        public override double VATPrice
         {
-            return Price * 1.05;
+            get{ return Price * 1.05; }
+            
         }
     }
 }
