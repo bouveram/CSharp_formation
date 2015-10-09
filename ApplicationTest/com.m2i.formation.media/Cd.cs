@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace com.m2i.formation.media
 {
-    public abstract class Item
+    public class Cd : Media
     {
-        public int Id { get; set; }
+        public int NbTrack { get; set; }
 
-        public double Price { get; set; }
+        public override double VATPrice
+        {
+            get { return Price * 1.2; }
 
-        public string Name { get; set; }
+        }
     }
 }

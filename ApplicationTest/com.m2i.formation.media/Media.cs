@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace com.m2i.formation.media
 {
-    public class Media : Item
+    public abstract class Media : Item
     {
         private string title;
         /*private int nbPage;
@@ -46,14 +46,10 @@ namespace com.m2i.formation.media
                 Console.WriteLine("No author for now !");
             }
         }
+
+        public abstract double VATPrice { get; }
         
-        public virtual double VATPrice
-        {
-            get {
-                return Price * 1.2;
-            }
-            
-        }
+        
         
     }
 }
