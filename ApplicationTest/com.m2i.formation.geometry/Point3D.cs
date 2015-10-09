@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApplicationTest.com.m2i.formation.geometry
+namespace com.m2i.formation.geometry
 {
     class Point3D : Point
     {
