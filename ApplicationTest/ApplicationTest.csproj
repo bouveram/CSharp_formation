@@ -51,6 +51,7 @@
     <Compile Include="com.m2i.formation.geometry\Counter.cs" />
     <Compile Include="com.m2i.formation.media\Cd.cs" />
     <Compile Include="com.m2i.formation.media\Dvd.cs" />
+    <Compile Include="com.m2i.formation.media\IItem.cs" />
     <Compile Include="com.m2i.formation.media\Item.cs" />
     <Compile Include="com.m2i.formation.media\Media.cs" />
     <Compile Include="Program.cs" />

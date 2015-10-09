@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace com.m2i.formation.media
 {
-    public abstract class Item
+    public abstract class Item : IItem
     {
         public int Id { get; set; }
 
