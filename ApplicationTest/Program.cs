@@ -25,10 +25,20 @@ namespace ApplicationTest
             test.NbPage = 957;
             test.Editor = editeur;
             test.DisplayAuthor();
-            test.AddAuthor(guillaume);
-            test.AddAuthor(arthur);
+            try
+            {
+                test.AddAuthor(guillaume);
+                test.AddAuthor(arthur);
+                for (int prout = 0; prout < 11; prout++)
+                {
+                    livre2.AddAuthor(maurice);
+                }
+            }
+            catch (MediaException e)
+            {
+                Console.WriteLine(e.StackTrace);
+            }
             
-            livre2.AddAuthor(maurice);
 
             Console.WriteLine(test.Title);
             Console.WriteLine("Il possede a : " + test.NbPage + " pages");

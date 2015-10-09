@@ -27,6 +27,10 @@ namespace com.m2i.formation.media
 
         public void AddAuthor(Author author)
         {
+            if (nbAuthor >= 10)
+            {
+                throw new MediaException("Too many authors !");
+            }
             this.Authors[nbAuthor] = author;
             nbAuthor++;
         }

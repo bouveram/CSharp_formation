@@ -54,6 +54,7 @@
     <Compile Include="com.m2i.formation.media\IItem.cs" />
     <Compile Include="com.m2i.formation.media\Item.cs" />
     <Compile Include="com.m2i.formation.media\Media.cs" />
+    <Compile Include="com.m2i.formation.media\MediaException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="com.m2i.formation.media\Publisher.cs" />
