@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ApplicationTest.com.m2i.formation.geometry;
 
 namespace ApplicationTest
 {
@@ -42,6 +43,10 @@ namespace ApplicationTest
             test.Category = BookCategory.Poem;
             Console.WriteLine(test.Category );
             Console.ReadKey();
+
+            Point3D p3d = new Point3D();
+            p3d.X = 5;
+            p3d.Z = 9;
         }
     }
 

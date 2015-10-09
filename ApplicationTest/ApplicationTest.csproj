@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="com.m2i.formation.geometry\Point.cs" />
+    <Compile Include="com.m2i.formation.geometry\Point3D.cs" />
     <Compile Include="com.m2i.formation.media\Author.cs" />
     <Compile Include="com.m2i.formation.media\Book.cs" />
     <Compile Include="com.m2i.formation.media\BookCategory.cs" />
