@@ -73,8 +73,8 @@ namespace ApplicationTest
             map.Add("one", b1);
             map.Add("two", b2);
             map.Add("three", b3);
-            map.Add("four", b1);
-
+            map.Add("four", b1);
+            
             map.Remove("four");
 
             return map;

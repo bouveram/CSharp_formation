@@ -46,6 +46,8 @@
     <Compile Include="CollectionTest.cs" />
     <Compile Include="com.m2i.formation.geometry\Point.cs" />
     <Compile Include="com.m2i.formation.geometry\Point3D.cs" />
+    <Compile Include="com.m2i.formation.media.repository\BookRepository.cs" />
+    <Compile Include="com.m2i.formation.media.repository\IRepository.cs" />
     <Compile Include="com.m2i.formation.media\Author.cs" />
     <Compile Include="com.m2i.formation.media\Book.cs" />
     <Compile Include="com.m2i.formation.media\BookCategory.cs" />
